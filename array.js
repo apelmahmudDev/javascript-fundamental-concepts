@@ -28,4 +28,4 @@ friendsName.shift();
 friendsName.unshift('Shayra Banu');
 friendsName.unshift('Shayra');
 
-console.log(friendsName.length);
+console.log(friendsName.slice(2,4));
