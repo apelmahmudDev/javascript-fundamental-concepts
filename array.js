@@ -16,4 +16,16 @@ var dabirPosition = friendsName.indexOf('Dabir');
 
 friendsName[2] = 'Basir';
 
-console.log(friendsName);
+// console.log(friendsName);
+
+friendsName.push('Solayman');
+friendsName.push('Komola bibi');
+
+friendsName.pop();
+friendsName.pop();
+friendsName.shift();
+friendsName.shift();
+friendsName.unshift('Shayra Banu');
+friendsName.unshift('Shayra');
+
+console.log(friendsName.length);
